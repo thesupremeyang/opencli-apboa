@@ -11,6 +11,7 @@ cli({
   domain: '117.72.185.237',
   strategy: Strategy.PUBLIC,
   browser: false,
+  access: 'read',
   args: [
     { name: 'page', type: 'int', default: 1, help: '页码' },
     { name: 'size', type: 'int', default: 20, help: '每页数量' },

@@ -11,6 +11,7 @@ cli({
   domain: '117.72.185.237',
   strategy: Strategy.PUBLIC,
   browser: false,
+  access: 'read',
   args: [
     { name: 'id', required: true, positional: true, help: '智能体 ID' },
     { name: 'base', type: 'string', default: DEFAULT_BASE, help: '平台地址' },

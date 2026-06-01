@@ -11,6 +11,7 @@ cli({
   domain: '117.72.185.237',
   strategy: Strategy.PUBLIC,
   browser: false,
+  access: 'write',
   args: [
     { name: 'username', required: true, positional: true, help: '用户名' },
     { name: 'password', required: true, help: '密码' },
